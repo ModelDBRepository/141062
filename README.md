@@ -40,8 +40,8 @@ The script reads the `./mat/spikes.spk` file produced by Virtual Retina.
 It then formats it (cropping), and then launches LGN, V1 and plots the final RFs (Fig 6 in the paper)  
 See comments at the beginning of each script.
 
-2013-05-15 T Masquelier supplied an update in response to a modeler's request for help where a problem where `STDPContinuous.c` was not compiling on a particular platform was fixed by renaming `min` and `max` to `local_min` and `local_max` within that program.
+## Changelog
 
----
+2013-05-15 T Masquelier supplied an update in response to a modeler's request for help where a problem where `STDPContinuous.c` was not compiling on a particular platform was fixed by renaming `min` and `max` to `local_min` and `local_max` within that program.
 
 2025-06-20: Converted README to Markdown.
